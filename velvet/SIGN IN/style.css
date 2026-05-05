@@ -161,11 +161,6 @@ button:hover {
 .overlay button {
     color: var(--overlay-color);
     border:3px solid var(--overlay-color) ;
-    
-}
-.overlay{
-    margin-top: 30px;
-    margin-right: 5px;
 }
 #msg {
     font-size: 20px;
