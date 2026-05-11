@@ -4,11 +4,11 @@
  if (savedTheme === "light") {
  document.body.classList.add("light");
  if(icon)
- icon.classList.replace('fa-moon','fa-sun');
+ icon.classList.replace('fa-sun','fa-moon');
  } else {
    document.body.classList.remove("light");
    if(icon) 
-   icon.classList.replace('fa-sun','fa-moon');
+   icon.classList.replace('fa-moon','fa-sun');
  }
 
  button.onclick = function(){
@@ -16,12 +16,12 @@
  if (document.body.classList.contains("light") ) {
      localStorage.setItem("theme", "light");
      if(icon)
- icon.classList.replace('fa-moon','fa-sun');
+ icon.classList.replace('fa-sun','fa-moon');
 
    } else {
      localStorage.setItem("theme", "dark");
      if(icon) 
-   icon.classList.replace('fa-sun','fa-moon');
+   icon.classList.replace('fa-moon','fa-sun');
    }
  }};
 
