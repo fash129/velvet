@@ -51,8 +51,7 @@ header:hover{
     right:40px;
     color: var(--text-color);
     background: none;
-    border:var(--border-color);
-    border-radius: 30px;
+    border:none;
     cursor: pointer;
     font-size: x-large;
 }
