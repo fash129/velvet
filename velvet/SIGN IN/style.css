@@ -46,7 +46,15 @@ header:hover{
     rotate:y 360deg;
 }
 #themeToggle {
-    
+    position: absolute;
+    top:40px;
+    right:40px;
+    color: var(--text-color);
+    background: none;
+    border:var(--border-color);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: x-large;
 }
 main {
     display: flex;
