@@ -45,7 +45,7 @@ header{
 header:hover{
     rotate:y 360deg;
 }
-#themeToggle {
+#theme-switch {
     position: absolute;
     top:40px;
     right:40px;
