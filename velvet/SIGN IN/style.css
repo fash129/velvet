@@ -46,16 +46,14 @@ header:hover{
     rotate:y 360deg;
 }
 .theme-btn{
-    position: fixed;
-    /*position: absolute;*/
+    position: absolute;
     top:40px;
     right:40px;
-    color: red;
+    color: var(--text-color);
     background: none;
-    border:none;
+    border: none;
     cursor: pointer;
     font-size: x-large;
-    z-index: 1000;
 }
 main {
     display: flex;
