@@ -100,7 +100,7 @@ input{
     transition: 0.3s ease;
 } 
 input:hover {
-    font-size: 20px;
+    scale:1.2;
     opacity: 1;
 }
 input:focus {
@@ -121,8 +121,7 @@ input:focus {
     color: var(--text-color);
 }
 .submit-btn:hover {
-    font-size: 20px;
-    font-weight: bold;
+    scale:1.2;
     box-shadow: 9px 9px 40px var(--shadow);
 }
 .image {
