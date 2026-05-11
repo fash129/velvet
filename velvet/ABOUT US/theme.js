@@ -8,7 +8,7 @@
  } else {
    document.body.classList.remove("light");
    if(icon) 
-   icon.classList.replace('fa-moon','fa-sun');
+   icon.classList.replace('fa-sun','fa-moon');
  }
 
  button.onclick = function(){
