@@ -12,7 +12,7 @@ var slide=[
     {
         'name':'Souad Hosny',
         'text': 'Known as the Cinderella of Egyptian Cinema, Soaad Hosny perfectly blended playfulness with glamour. Her fashion sense was vibrant and versatile, ranging from iconic polka-dot dresses to chic, sophisticated evening gowns. She captured the spirit of an entire era with her effortless charm, making her a forever icon of Middle Eastern femininity and bold style.',
-        'images':['../fashionicon/images/3-1.jpg','../fashionicon/images/3-2.jpg','../fashionicon/images/3-4.jpg']
+        'images':['../fashionicon/images/3-1.jpg','../fashionicon/images/3-2.jpg','../fashionicon/images/3-3.jpg','../fashionicon/images/3-4.jpg']
     },
     {
         'name':'Diana',
