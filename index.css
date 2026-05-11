@@ -6,8 +6,8 @@
 }
 body{
     transition: .3s;
-        background-image: url("homeimg/fash5.jpg");
-    color: #461615;
+    background-image: url("homeimg/fash5.jpg");
+    color: #edded3;
     text-shadow: 5px 5px 5px #7d5e3c;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -21,9 +21,15 @@ body{
     background-attachment:fixed ;
     text-shadow: 5px 5px 5px #402615;
 }
-#themetoggle {
+#theme-switch {
     color: inherit;
     background-color: transparent;
+    border :none;
+    padding:5px;
+    transition:.5s;
+}
+#theme-switch:hover{
+    scale:1.2;
 }
 .light{
     background-image: url("homeimg/fash6.jpg");
