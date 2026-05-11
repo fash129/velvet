@@ -27,6 +27,7 @@ body{
     border :none;
     padding:5px;
     transition:.5s;
+    cursor:pointer;
 }
 #theme-switch:hover{
     scale:1.2;
