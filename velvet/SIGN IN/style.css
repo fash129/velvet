@@ -46,7 +46,7 @@ header:hover{
     rotate:y 360deg;
 }
 .theme-btn{
-    position: absolute;
+    position: fixed;
     top:40px;
     right:40px;
     color: var(--text-color);
