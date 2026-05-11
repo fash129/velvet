@@ -50,7 +50,7 @@ header:hover{
     /*position: absolute;*/
     top:40px;
     right:40px;
-    color: var(--text-color);
+    color: red;
     background: none;
     border:none;
     cursor: pointer;
