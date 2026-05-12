@@ -20,21 +20,22 @@ header{
 
 
 #theme-switch {
-    background: none;
+    background:none;
     border:none;
     color: #edded3;
-    width: 40px;
+    width:50px;
     cursor: pointer;
     font-size: 18px;
     transition: 0.3s;
+    
 
  }
 body.light {
     background-color:#edded3;
 }
-#theme-switch:hover {
-    background-color: #54392a;
-    color:#edded3 ;
+.theme-switch:hover {
+    background-color:#54392a  ;
+    color:#edded3;
 }
 
 body.light {
@@ -223,4 +224,5 @@ justify-content: center;
     border-radius: 20px;
     opacity: 0.7;
     color: white;}
+
 
