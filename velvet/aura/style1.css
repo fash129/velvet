@@ -32,7 +32,7 @@ header{
 body.light {
     background-color:#edded3;
 }
-.theme-switch:hover {
+#theme-switch:hover {
     background-color: #54392a;
     color:#edded3 ;
 }
