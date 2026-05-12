@@ -21,6 +21,7 @@ header{
 
 .theme-switch {
     background: none;
+    border:none;
     color: #edded3;
     width: 40px;
     cursor: pointer;
