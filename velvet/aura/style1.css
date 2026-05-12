@@ -19,28 +19,21 @@ header{
 
 
 
-.theme-btn {
-    position: absolute; 
-    top: 20px;
-    right: 20px;
+.theme-switch {
     background: none;
-    border: 2px solid #54392a;
-    color: #54392a;
-    border-radius: 50%;
+    color: #edded3;
     width: 40px;
-    height: 40px;
     cursor: pointer;
     font-size: 18px;
     transition: 0.3s;
-    z-index: 1000;
 
  }
 body.light {
     background-color:#edded3;
 }
-.theme-btn:hover {
-    background-color:#edded3 ;
-    color:#54392a ;
+.theme-switch:hover {
+    background-color: #54392a;
+    color:#edded3 ;
 }
 
 body.light {
@@ -79,7 +72,7 @@ body.light ul li a:hover {
 #theme-icon {
     transition: transform 0.4s ease;}
 
-body.light #theme-toggle i {
+body.light #theme-switch i {
     transform: scale(1.1) rotate(10deg); 
 }
 header:hover{
