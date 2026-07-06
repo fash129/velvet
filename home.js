@@ -57,7 +57,7 @@
                 let b = document.getElementById("layout1");
                 a.classList.add("mod");
                 b.classList.remove("mod");
-                localStorage.setItem("lay","layout1");
+                localStorage.setItem("lay","layout");
             }
             function layout1(){
                 let x=document.getElementById("ul");
@@ -67,7 +67,7 @@
                 let b = document.getElementById("layout1");
                 a.classList.remove("mod");
                 b.classList.add("mod");
-                localStorage.setItem("lay","layout");
+                localStorage.setItem("lay","layout1");
             }
             window.onload=function(){
             let save=localStorage.getItem("lay");
