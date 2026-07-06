@@ -228,7 +228,7 @@ header:hover{
 }
 #layout{
     position:absolute;
-    top:4%;
+    top:3%;
     right: 10%;
     padding: 5px;
     transition: .5s;
@@ -241,7 +241,7 @@ header:hover{
 }
 #layout1{
     position:absolute;
-    top: 4%;
+    top: 3%;
     right: 10%;
     padding: 5px;
     transition: .5s;
